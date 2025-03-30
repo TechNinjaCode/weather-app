@@ -79,3 +79,49 @@ body {
   border-radius: 1rem;
   background-color: #f0f7ff;
 }
+
+/* Search box style*/
+
+.search-box {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+}
+
+.city-input {
+  flex: 1;
+  padding: 1.2rem;
+  font-size: 1.8rem;
+  color: inherit;
+  border: 1px solid #ccc;
+  border-radius: 0.6rem;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.city-input:focus {
+  outline: none;
+  border-color: #4a90e2;
+  box-shadow: 0 0 0.8rem rgba(74, 144, 226, 0.3);
+}
+
+.search-btn {
+  padding: 1.2rem 2rem;
+  font-size: 1.8rem;
+  letter-spacing: 0.1rem;
+  background: linear-gradient(135deg, #3a7bd5, #00d2ff);
+  color: #fff;
+  border: none;
+  border-radius: 0.6rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.search-btn:hover {
+  background: linear-gradient(135deg, #2d62a8, #00b2dd);
+  box-shadow: 0 6px 12px rgba(0, 150, 200, 0.3);
+}
+
+.search-btn:active {
+  transform: translateY(1px);
+  box-shadow: 0 2px 4px rgba(0, 150, 200, 0.2);
+}
