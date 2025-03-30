@@ -34,10 +34,13 @@ body {
   box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.08);
 }
 
+/* Header style */
+
 .header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 1rem;
   margin-bottom: 4rem;
 }
 
@@ -54,4 +57,25 @@ body {
   letter-spacing: 0.2rem;
   font-weight: 400;
   font-style: italic;
+}
+
+/* Main content wrapper style  */
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+/* App container style  */
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+  padding: 2rem;
+  border-radius: 1rem;
+  background-color: #f0f7ff;
 }
